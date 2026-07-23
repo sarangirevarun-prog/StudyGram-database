@@ -1,4 +1,726 @@
 {
+  "Basic Mathematics": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Basic Mathematics Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO1K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 1",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Basic Mathematics Tutorial Manual",
+        "subtitle": "Official Practical & Tutorial Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Algebra & Trigonometry",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/basic_math_u1.pdf",
+        "size": "3.5 MB"
+      },
+      {
+        "title": "Unit 2: Coordinate Geometry & Vectors",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/basic_math_u2.pdf",
+        "size": "4.1 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Basic Mathematics Concepts Overview",
+        "duration": "15 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Communication Skills": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Communication Skills Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO1K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 1",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Communication Skills Language Lab Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Introduction to Communication",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/comm_skills_u1.pdf",
+        "size": "2.8 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Effective Communication Essentials",
+        "duration": "12 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Basic Science": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Basic Science Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO1K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 1",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Basic Science Lab Manual (Physics & Chemistry)",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Applied Physics & Chemistry Notes",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/basic_science_u1.pdf",
+        "size": "5.2 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Basic Science Fundamentals",
+        "duration": "20 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Fundamentals of ICT": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Fundamentals of ICT Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO1K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 1",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "ICT Lab Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Computer Hardware & Operating Systems",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/ict_u1.pdf",
+        "size": "3.9 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Introduction to Computers & ICT",
+        "duration": "14 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Engineering Workshop": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Engineering Workshop Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO1K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 1",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Workshop Practice Manual",
+        "subtitle": "Official Workshop Practical Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Fitting, Carpentry & Sheet Metal Jobs",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/workshop_notes.pdf",
+        "size": "4.0 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Workshop Safety & Tools Guide",
+        "duration": "16 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Yoga & Meditation": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Yoga & Meditation Guide",
+        "subtitle": "Official Curriculum PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO1K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 1",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Yoga Practical Journal",
+        "subtitle": "Practical Activities Manual",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Basic Asanas and Stress Management",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/yoga_notes.pdf",
+        "size": "2.1 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Yoga & Breathing Techniques",
+        "duration": "10 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Engineering Graphics": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Engineering Graphics Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO1K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 1",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Engineering Graphics Sheet Manual",
+        "subtitle": "Official Drawing & Practical Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Orthographic & Isometric Projections",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/eg_u1.pdf",
+        "size": "6.2 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Engineering Drawing Basics",
+        "duration": "22 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+
+  "Applied Mathematics": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Applied Mathematics Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO2K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 2",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Applied Mathematics Tutorial Manual",
+        "subtitle": "Official Practical & Tutorial Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Integration & Differential Equations",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/app_math_u1.pdf",
+        "size": "4.5 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Integration Methods & Examples",
+        "duration": "25 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Electrical & Electronics": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Electrical & Electronics Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO2K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 2",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Electrical & Electronics Lab Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: AC & DC Circuits Fundamentals",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/ee_u1.pdf",
+        "size": "3.8 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Circuit Analysis Basics",
+        "duration": "18 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Programming in C": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Programming in C Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO2K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 2",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "C Programming Lab Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Fundamentals of C & Control Structures",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/c_prog_u1.pdf",
+        "size": "4.2 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "C Language Basics for Beginners",
+        "duration": "20 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Linux Basics": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Linux Basics Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO2K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 2",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Linux Commands Practical Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Linux Architecture & Shell Commands",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/linux_u1.pdf",
+        "size": "3.1 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Linux Terminal Commands Tutorial",
+        "duration": "15 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Professional Communication": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Professional Communication Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO2K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 2",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Professional Communication Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Corporate Communication & Business Etiquette",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/prof_comm_u1.pdf",
+        "size": "2.9 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Presentation & Interview Skills",
+        "duration": "14 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Social & Life Skills": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Social & Life Skills Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO2K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 2",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Life Skills Journal",
+        "subtitle": "Practical Activities Guide",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Emotional Intelligence & Leadership Skills",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/life_skills_u1.pdf",
+        "size": "2.4 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Developing Problem Solving Habits",
+        "duration": "11 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Web Page Designing": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Web Page Designing Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO2K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 2",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "HTML & CSS Web Designing Practical Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: HTML5 Tags & CSS3 Styling",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/wpd_u1.pdf",
+        "size": "4.6 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Building Your First Web Page",
+        "duration": "18 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+
+  "Data Structure Using C": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Data Structures Using C Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO3K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 3",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Data Structures Lab Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Arrays, Stacks, and Queues",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/dsu_u1.pdf",
+        "size": "4.9 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Stacks and Queues Explained",
+        "duration": "20 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1516116211223-48a122637329?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Database Management": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Database Management System Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO3K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 3",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "DBMS SQL Practical Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: ER Diagrams & SQL Queries",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/dbms_u1.pdf",
+        "size": "5.1 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "SQL Basics and Database Design",
+        "duration": "22 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Digital Techniques": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Digital Techniques Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO3K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 3",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Digital Circuits Practical Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Logic Gates & Boolean Algebra",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/dt_u1.pdf",
+        "size": "3.7 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Logic Gates Overview",
+        "duration": "16 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "OOP Using C++": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "OOP Using C++ Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO3K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 3",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "C++ Programming Practical Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Classes, Objects, and Inheritance",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/cpp_u1.pdf",
+        "size": "4.4 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Object Oriented Programming Principles",
+        "duration": "19 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Computer Graphics": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Computer Graphics Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO3K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 3",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Graphics Algorithms Practical Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Line Drawing & Clipping Algorithms",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/cg_u1.pdf",
+        "size": "4.1 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Bresenham & DDA Algorithms",
+        "duration": "17 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Indian Constitution": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Indian Constitution Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO3K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 3",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Constitution Study Guide",
+        "subtitle": "Self Study Practical Guide",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Fundamental Rights and Duties Overview",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/constitution_u1.pdf",
+        "size": "3.0 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Structure of Indian Constitution",
+        "duration": "15 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+
+  "Environmental Education": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Environmental Education Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO4K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 4",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Environmental Studies Project Manual",
+        "subtitle": "Official Project & Practical Guide",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Ecosystems & Natural Resources",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/env_u1.pdf",
+        "size": "3.3 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Ecology & Sustainability Basics",
+        "duration": "12 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
   "Java Programming": {
     "syllabus_section": {
       "subject_syllabus": {
@@ -35,6 +757,586 @@
         "duration": "18 mins video lecture",
         "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
         "thumbnail": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Data Communication & Net": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Data Communication & Networks Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO4K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 4",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Networking Protocols Lab Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: OSI Model & TCP/IP Layering",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/dcn_u1.pdf",
+        "size": "4.3 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "OSI 7 Layers Architecture",
+        "duration": "21 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Microprocessor Programming": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Microprocessor 8086 Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO4K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 4",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Assembly Language Practical Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: 8086 Microprocessor Architecture",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/mic_u1.pdf",
+        "size": "5.0 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "8086 Assembly Language Tutorial",
+        "duration": "19 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Python Programming": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Python Programming Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO4K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 4",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Python Lab Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Python Data Types, Loops & Functions",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/python_u1.pdf",
+        "size": "4.1 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Python Crash Course",
+        "duration": "25 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "UI/UX Design": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "UI/UX Design Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO4K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 4",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Figma & Wireframing Practical Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: UI Prototyping & Design Principles",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/uiux_u1.pdf",
+        "size": "3.9 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Introduction to Figma Prototyping",
+        "duration": "16 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+
+  "Operating System": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Operating System Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO5K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 5",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Operating System Scheduling Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Process Management & CPU Scheduling",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/os_u1.pdf",
+        "size": "4.7 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Process Scheduling Algorithms",
+        "duration": "20 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Software Engineering": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Software Engineering Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO5K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 5",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "UML Diagram Practical Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Agile & Waterfall SDLC Models",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/se_u1.pdf",
+        "size": "3.8 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "SDLC Models Overview",
+        "duration": "15 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Entrepreneurship Dev": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Entrepreneurship Development Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO5K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 5",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Business Plan & Project Manual",
+        "subtitle": "Official Practical Guide PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Business Models & Startup Fundamentals",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/ed_u1.pdf",
+        "size": "3.4 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Startup Pitching & Funding Basics",
+        "duration": "18 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Seminar & Project Init": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Seminar & Project Initiation Guidelines",
+        "subtitle": "Official MSBTE Guidelines PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO5K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 5",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Synopsis Format & Project Logbook",
+        "subtitle": "Official Project Guide",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Project Synopsis Writing Standard",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/project_init.pdf",
+        "size": "2.2 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Choosing Major Project Topics",
+        "duration": "13 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Internship": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Industrial Internship Curriculum",
+        "subtitle": "Official Training Policy PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO5K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 5",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Industrial Training Logbook & Report Format",
+        "subtitle": "Official Internship Logbook",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Industrial Internship Diary Format",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/internship_guide.pdf",
+        "size": "1.9 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "How to Prepare Internship Reports",
+        "duration": "10 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Cloud Computing": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Cloud Computing Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO5K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 5",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "AWS & Cloud Lab Practical Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: IaaS, PaaS, SaaS Cloud Models",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/cloud_u1.pdf",
+        "size": "4.6 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Cloud Architecture Overview",
+        "duration": "22 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+
+  "Management": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Industrial Management Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO6K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 6",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Management Case Studies Manual",
+        "subtitle": "Official Practical & Case Study Book",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Principles of Management & Safety Laws",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/management_u1.pdf",
+        "size": "3.8 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Management Fundamentals",
+        "duration": "17 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Emerging Trends": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Emerging Trends in Computer Tech Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO6K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 6",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Emerging Technologies Research Manual",
+        "subtitle": "Official Practical Guide PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "IoT, AI, and Blockchain Trends",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/et_u1.pdf",
+        "size": "4.2 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "AI & Blockchain Technology Introduction",
+        "duration": "20 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Software Testing": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Software Testing Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO6K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 6",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Software Testing Tools Practical Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Black Box & White Box Testing Methods",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/st_u1.pdf",
+        "size": "3.9 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Software Testing Types Explained",
+        "duration": "18 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Client Side Scripting": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Client Side Scripting (JavaScript) Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO6K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 6",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "JavaScript Practical Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: JavaScript Syntax & DOM Manipulation",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/css_u1.pdf",
+        "size": "4.5 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "JavaScript Fundamentals",
+        "duration": "24 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Mobile App Development": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Mobile Application Development Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO6K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 6",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Android Studio / Flutter Practical Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Android Architecture & Flutter Widgets",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/mad_u1.pdf",
+        "size": "5.1 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Flutter App Development Crash Course",
+        "duration": "28 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Capstone Project": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Capstone Project Guidelines",
+        "subtitle": "Official MSBTE Project Guidelines",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO6K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 6",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Project Report Format & Documentation Manual",
+        "subtitle": "Official Final Year Project Manual",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Final Year Blackbook Report Structure",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/capstone_guide.pdf",
+        "size": "3.2 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Project Defense & Presentation Tips",
+        "duration": "15 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=500&auto=format&fit=crop"
+      }
+    ]
+  },
+  "Machine Learning": {
+    "syllabus_section": {
+      "subject_syllabus": {
+        "title": "Machine Learning Official Syllabus",
+        "subtitle": "Official MSBTE Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/pdfdownload/download/"
+      },
+      "semester_syllabus": {
+        "title": "CO6K Complete Syllabus PDF",
+        "subtitle": "All Subject Syllabus PDF for Semester 6",
+        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+      },
+      "lab_manual": {
+        "title": "Python Machine Learning Practical Manual",
+        "subtitle": "Official Practical & Lab Manual PDF",
+        "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
+      }
+    },
+    "notes": [
+      {
+        "title": "Unit 1: Supervised & Unsupervised Learning",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/ml_u1.pdf",
+        "size": "4.9 MB"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Machine Learning Algorithms Guide",
+        "duration": "25 mins video lecture",
+        "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "thumbnail": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=500&auto=format&fit=crop"
       }
     ]
   }
