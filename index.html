@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyGram - Content Manager</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body { background-color: #0f172a; color: #f8fafc; font-family: system-ui, sans-serif; }
+    .glass-card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; }
+  </style>
+</head>
+<body class="p-4 md:p-8 max-w-6xl mx-auto">
+
+  <!-- Header -->
+  <header class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4 pb-4 border-b border-slate-700">
+    <div>
+      <h1 class="text-2xl font-bold text-indigo-400"><i class="fa-solid fa-graduation-cap mr-2"></i>StudyGram Content Editor</h1>
+      <p class="text-sm text-slate-400">Edit materials.json directly without viewing raw code</p>
+    </div>
+    <div class="flex items-center gap-3 w-full md:w-auto">
+      <button id="saveBtn" onclick="saveToGitHub()" disabled class="bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white font-semibold px-5 py-2.5 rounded-lg flex items-center justify-center gap-2 transition w-full md:w-auto">
+        <i class="fa-solid fa-cloud-arrow-up"></i> Push Changes
+      </button>
+    </div>
+  </header>
+
+  <!-- GitHub Credentials Config -->
+  <section class="glass-card p-5 mb-8">
+    <h2 class="text-lg font-semibold mb-4 text-slate-200 flex items-center gap-2">
+      <i class="fa-brands fa-github"></i> GitHub Settings
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div>
+        <label class="block text-xs text-slate-400 mb-1">GitHub Username</label>
+        <input type="text" id="ghOwner" value="sarangirevarun-prog" class="w-full bg-slate-900 border border-slate-700 rounded p-2 text-sm text-white">
+      </div>
+      <div>
+        <label class="block text-xs text-slate-400 mb-1">Repository Name</label>
+        <input type="text" id="ghRepo" value="StudyGram-database" class="w-full bg-slate-900 border border-slate-700 rounded p-2 text-sm text-white">
+      </div>
+      <div>
+        <label class="block text-xs text-slate-400 mb-1">Path</label>
+        <input type="text" id="ghPath" value="materials.json" class="w-full bg-slate-900 border border-slate-700 rounded p-2 text-sm text-white">
+      </div>
+      <div>
+        <label class="block text-xs text-slate-400 mb-1">Personal Access Token (PAT)</label>
+        <input type="password" id="ghToken" placeholder="ghp_xxxxxxxxxxxx" class="w-full bg-slate-900 border border-slate-700 rounded p-2 text-sm text-white">
+      </div>
+    </div>
+    <div class="mt-4 flex justify-between items-center">
+      <p class="text-xs text-slate-500">Token is saved safely in local storage (never uploaded anywhere else).</p>
+      <button onclick="fetchFromGitHub()" class="bg-slate-700 hover:bg-slate-600 text-white text-xs px-4 py-2 rounded flex items-center gap-2">
+        <i class="fa-solid fa-rotate"></i> Load Data
+      </button>
+    </div>
+  </section>
+
+  <!-- Status Notification -->
+  <div id="statusAlert" class="hidden mb-6 p-4 rounded-lg text-sm flex items-center gap-3"></div>
+
+  <!-- Main Content Editor -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    
+    <!-- Left Sidebar: Subject List -->
+    <div class="glass-card p-4">
+      <h3 class="text-sm font-semibold text-slate-400 mb-3 uppercase tracking-wider">Select Subject</h3>
+      <input type="text" id="subjectSearch" oninput="filterSubjects()" placeholder="Search subject..." class="w-full bg-slate-900 border border-slate-700 rounded p-2 text-xs mb-3 text-white">
+      <div id="subjectList" class="space-y-1 max-h-[600px] overflow-y-auto pr-1">
+        <p class="text-xs text-slate-500 italic p-2">Click "Load Data" above to fetch subjects...</p>
+      </div>
+    </div>
+
+    <!-- Right Area: Form Details -->
+    <div class="md:col-span-2 space-y-6">
+      
+      <!-- Editor Card -->
+      <div id="editorPanel" class="glass-card p-6 hidden">
+        <h2 id="activeSubjectTitle" class="text-xl font-bold text-indigo-300 mb-6 pb-2 border-b border-slate-700">Subject Name</h2>
+
+        <!-- Syllabus Section -->
+        <div class="space-y-4 mb-8">
+          <h3 class="text-md font-semibold text-amber-400 flex items-center gap-2">
+            <i class="fa-solid fa-book"></i> Syllabus Links
+          </h3>
+          
+          <div class="bg-slate-900 p-3 rounded-lg space-y-2 border border-slate-800">
+            <span class="text-xs text-slate-400 font-semibold">Subject Syllabus</span>
+            <input type="text" id="subSyllabusTitle" placeholder="Title" class="w-full bg-slate-800 border border-slate-700 rounded p-2 text-xs text-white">
+            <input type="text" id="subSyllabusUrl" placeholder="URL" class="w-full bg-slate-800 border border-slate-700 rounded p-2 text-xs text-white">
+          </div>
+
+          <div class="bg-slate-900 p-3 rounded-lg space-y-2 border border-slate-800">
+            <span class="text-xs text-slate-400 font-semibold">Semester Complete Syllabus</span>
+            <input type="text" id="semSyllabusTitle" placeholder="Title" class="w-full bg-slate-800 border border-slate-700 rounded p-2 text-xs text-white">
+            <input type="text" id="semSyllabusUrl" placeholder="URL" class="w-full bg-slate-800 border border-slate-700 rounded p-2 text-xs text-white">
+          </div>
+
+          <div class="bg-slate-900 p-3 rounded-lg space-y-2 border border-slate-800">
+            <span class="text-xs text-slate-400 font-semibold">Lab Manual</span>
+            <input type="text" id="labManualTitle" placeholder="Title" class="w-full bg-slate-800 border border-slate-700 rounded p-2 text-xs text-white">
+            <input type="text" id="labManualUrl" placeholder="URL" class="w-full bg-slate-800 border border-slate-700 rounded p-2 text-xs text-white">
+          </div>
+        </div>
+
+        <!-- Notes Section -->
+        <div class="space-y-4 mb-8">
+          <div class="flex justify-between items-center">
+            <h3 class="text-md font-semibold text-emerald-400 flex items-center gap-2">
+              <i class="fa-solid fa-file-pdf"></i> PDF Notes
+            </h3>
+            <button onclick="addNoteItem()" class="text-xs bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1 rounded">
+              + Add Note
+            </button>
+          </div>
+          <div id="notesContainer" class="space-y-3"></div>
+        </div>
+
+        <!-- Videos Section -->
+        <div class="space-y-4">
+          <div class="flex justify-between items-center">
+            <h3 class="text-md font-semibold text-sky-400 flex items-center gap-2">
+              <i class="fa-solid fa-video"></i> Video Lectures
+            </h3>
+            <button onclick="addVideoItem()" class="text-xs bg-sky-600 hover:bg-sky-500 text-white px-3 py-1 rounded">
+              + Add Video
+            </button>
+          </div>
+          <div id="videosContainer" class="space-y-3"></div>
+        </div>
+
+      </div>
+
+      <div id="emptyPanel" class="glass-card p-12 text-center text-slate-500">
+        <i class="fa-solid fa-hand-pointer text-4xl mb-3"></i>
+        <p>Select a subject from the left list to start editing details.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    let materialsData = {};
+    let activeSubject = null;
+    let fileSha = ""; // Required by GitHub API to update files
+
+    // Load credentials on startup
+    window.onload = () => {
+      document.getElementById('ghToken').value = localStorage.getItem('sg_token') || '';
+      if(document.getElementById('ghToken').value) fetchFromGitHub();
+    };
+
+    function showStatus(msg, isError = false) {
+      const alert = document.getElementById('statusAlert');
+      alert.className = `mb-6 p-4 rounded-lg text-sm flex items-center gap-3 ${isError ? 'bg-red-900/50 text-red-200 border border-red-700' : 'bg-emerald-900/50 text-emerald-200 border border-emerald-700'}`;
+      alert.innerHTML = `<i class="fa-solid ${isError ? 'fa-triangle-exclamation' : 'fa-circle-check'}"></i> ${msg}`;
+      alert.classList.remove('hidden');
+    }
+
+    // 1. Fetch JSON from GitHub REST API
+    async function fetchFromGitHub() {
+      const owner = document.getElementById('ghOwner').value;
+      const repo = document.getElementById('ghRepo').value;
+      const path = document.getElementById('ghPath').value;
+      const token = document.getElementById('ghToken').value;
+
+      if(!token) return showStatus("Please enter your GitHub Access Token.", true);
+      localStorage.setItem('sg_token', token);
+
+      try {
+        const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+          headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' }
+        });
+
+        if(!res.ok) throw new Error(`GitHub error: ${res.statusText}`);
+
+        const data = await res.json();
+        fileSha = data.sha;
+        
+        // Decode base64 unicode properly
+        const decodedString = decodeURIComponent(escape(atob(data.content)));
+        materialsData = JSON.parse(decodedString);
+
+        renderSubjectList();
+        document.getElementById('saveBtn').disabled = false;
+        showStatus("Successfully loaded materials.json from GitHub!");
+      } catch (err) {
+        showStatus(err.message, true);
+      }
+    }
+
+    // 2. Render Subject Navigation List
+    function renderSubjectList(filter = "") {
+      const container = document.getElementById('subjectList');
+      container.innerHTML = "";
+      
+      Object.keys(materialsData).forEach(subject => {
+        if(subject.toLowerCase().includes(filter.toLowerCase())) {
+          const btn = document.createElement('button');
+          btn.className = `w-full text-left px-3 py-2 text-xs rounded transition flex items-center justify-between ${subject === activeSubject ? 'bg-indigo-600 text-white font-semibold' : 'text-slate-300 hover:bg-slate-800'}`;
+          btn.innerHTML = `<span>${subject}</span> <i class="fa-solid fa-chevron-right text-[10px] opacity-50"></i>`;
+          btn.onclick = () => selectSubject(subject);
+          container.appendChild(btn);
+        }
+      });
+    }
+
+    function filterSubjects() {
+      renderSubjectList(document.getElementById('subjectSearch').value);
+    }
+
+    // 3. Load Selected Subject into Form Fields
+    function selectSubject(subject) {
+      if(activeSubject) saveFormToMemory(); // Save existing edits in memory before switching
+
+      activeSubject = subject;
+      renderSubjectList(document.getElementById('subjectSearch').value);
+
+      document.getElementById('emptyPanel').classList.add('hidden');
+      document.getElementById('editorPanel').classList.remove('hidden');
+      document.getElementById('activeSubjectTitle').innerText = subject;
+
+      const subData = materialsData[subject] || {};
+      const syl = subData.syllabus_section || {};
+
+      // Load Syllabus
+      document.getElementById('subSyllabusTitle').value = syl.subject_syllabus?.title || "";
+      document.getElementById('subSyllabusUrl').value = syl.subject_syllabus?.url || "";
+      document.getElementById('semSyllabusTitle').value = syl.semester_syllabus?.title || "";
+      document.getElementById('semSyllabusUrl').value = syl.semester_syllabus?.url || "";
+      document.getElementById('labManualTitle').value = syl.lab_manual?.title || "";
+      document.getElementById('labManualUrl').value = syl.lab_manual?.url || "";
+
+      // Load Notes
+      renderNotes(subData.notes || []);
+
+      // Load Videos
+      renderVideos(subData.videos || []);
+    }
+
+    // Dynamic Lists Rendering
+    function renderNotes(notes) {
+      const container = document.getElementById('notesContainer');
+      container.innerHTML = "";
+      notes.forEach((note, index) => {
+        const div = document.createElement('div');
+        div.className = "bg-slate-900 p-3 rounded border border-slate-800 space-y-2 relative group";
+        div.innerHTML = `
+          <div class="flex gap-2">
+            <input type="text" value="${note.title || ''}" placeholder="Unit Title" class="note-title w-2/3 bg-slate-800 border border-slate-700 rounded p-1.5 text-xs text-white">
+            <input type="text" value="${note.size || ''}" placeholder="Size (e.g. 4.8 MB)" class="note-size w-1/3 bg-slate-800 border border-slate-700 rounded p-1.5 text-xs text-white">
+          </div>
+          <input type="text" value="${note.url || ''}" placeholder="PDF Raw URL" class="note-url w-full bg-slate-800 border border-slate-700 rounded p-1.5 text-xs text-white">
+          <button onclick="this.parentElement.remove()" class="text-xs text-red-400 hover:text-red-300 pt-1 flex items-center gap-1"><i class="fa-solid fa-trash"></i> Remove</button>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function renderVideos(videos) {
+      const container = document.getElementById('videosContainer');
+      container.innerHTML = "";
+      videos.forEach((vid, index) => {
+        const div = document.createElement('div');
+        div.className = "bg-slate-900 p-3 rounded border border-slate-800 space-y-2 relative group";
+        div.innerHTML = `
+          <div class="flex gap-2">
+            <input type="text" value="${vid.title || ''}" placeholder="Video Title" class="vid-title w-2/3 bg-slate-800 border border-slate-700 rounded p-1.5 text-xs text-white">
+            <input type="text" value="${vid.duration || ''}" placeholder="Duration (e.g. 18 mins)" class="vid-duration w-1/3 bg-slate-800 border border-slate-700 rounded p-1.5 text-xs text-white">
+          </div>
+          <input type="text" value="${vid.url || ''}" placeholder="YouTube URL" class="vid-url w-full bg-slate-800 border border-slate-700 rounded p-1.5 text-xs text-white">
+          <button onclick="this.parentElement.remove()" class="text-xs text-red-400 hover:text-red-300 pt-1 flex items-center gap-1"><i class="fa-solid fa-trash"></i> Remove</button>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function addNoteItem() {
+      const container = document.getElementById('notesContainer');
+      const div = document.createElement('div');
+      div.className = "bg-slate-900 p-3 rounded border border-slate-800 space-y-2 relative group";
+      div.innerHTML = `
+        <div class="flex gap-2">
+          <input type="text" placeholder="Unit Title" class="note-title w-2/3 bg-slate-800 border border-slate-700 rounded p-1.5 text-xs text-white">
+          <input type="text" placeholder="Size (e.g. 4.8 MB)" class="note-size w-1/3 bg-slate-800 border border-slate-700 rounded p-1.5 text-xs text-white">
+        </div>
+        <input type="text" placeholder="PDF Raw URL" class="note-url w-full bg-slate-800 border border-slate-700 rounded p-1.5 text-xs text-white">
+        <button onclick="this.parentElement.remove()" class="text-xs text-red-400 hover:text-red-300 pt-1 flex items-center gap-1"><i class="fa-solid fa-trash"></i> Remove</button>
+      `;
+      container.appendChild(div);
+    }
+
+    function addVideoItem() {
+      const container = document.getElementById('videosContainer');
+      const div = document.createElement('div');
+      div.className = "bg-slate-900 p-3 rounded border border-slate-800 space-y-2 relative group";
+      div.innerHTML = `
+        <div class="flex gap-2">
+          <input type="text" placeholder="Video Title" class="vid-title w-2/3 bg-slate-800 border border-slate-700 rounded p-1.5 text-xs text-white">
+          <input type="text" placeholder="Duration" class="vid-duration w-1/3 bg-slate-800 border border-slate-700 rounded p-1.5 text-xs text-white">
+        </div>
+        <input type="text" placeholder="YouTube URL" class="vid-url w-full bg-slate-800 border border-slate-700 rounded p-1.5 text-xs text-white">
+        <button onclick="this.parentElement.remove()" class="text-xs text-red-400 hover:text-red-300 pt-1 flex items-center gap-1"><i class="fa-solid fa-trash"></i> Remove</button>
+      `;
+      container.appendChild(div);
+    }
+
+    // Save inputs back to JavaScript state object
+    function saveFormToMemory() {
+      if(!activeSubject) return;
+
+      const notes = [];
+      document.querySelectorAll('#notesContainer > div').forEach(el => {
+        notes.push({
+          title: el.querySelector('.note-title').value,
+          size: el.querySelector('.note-size').value,
+          url: el.querySelector('.note-url').value
+        });
+      });
+
+      const videos = [];
+      document.querySelectorAll('#videosContainer > div').forEach(el => {
+        videos.push({
+          title: el.querySelector('.vid-title').value,
+          duration: el.querySelector('.vid-duration').value,
+          url: el.querySelector('.vid-url').value,
+          thumbnail: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=500&auto=format&fit=crop"
+        });
+      });
+
+      materialsData[activeSubject] = {
+        syllabus_section: {
+          subject_syllabus: {
+            title: document.getElementById('subSyllabusTitle').value,
+            subtitle: "Official MSBTE Syllabus PDF",
+            url: document.getElementById('subSyllabusUrl').value
+          },
+          semester_syllabus: {
+            title: document.getElementById('semSyllabusTitle').value,
+            subtitle: "All Subject Syllabus PDF",
+            url: document.getElementById('semSyllabusUrl').value
+          },
+          lab_manual: {
+            title: document.getElementById('labManualTitle').value,
+            subtitle: "Official Practical & Lab Manual PDF",
+            url: document.getElementById('labManualUrl').value
+          }
+        },
+        notes: notes,
+        videos: videos
+      };
+    }
+
+    // 4. Push Updated JSON to GitHub Repository
+    async function saveToGitHub() {
+      saveFormToMemory();
+
+      const owner = document.getElementById('ghOwner').value;
+      const repo = document.getElementById('ghRepo').value;
+      const path = document.getElementById('ghPath').value;
+      const token = document.getElementById('ghToken').value;
+
+      if(!token) return showStatus("Missing access token!", true);
+
+      const jsonContent = JSON.stringify(materialsData, null, 2);
+      
+      // UTF-8 Base64 Encoding
+      const encodedContent = btoa(unescape(encodeURIComponent(jsonContent)));
+
+      showStatus("Pushing changes to GitHub...");
+
+      try {
+        const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+          method: 'PUT',
+          headers: {
+            'Authorization': `token ${token}`,
+            'Content-Type': 'application/json',
+            'Accept': 'application/vnd.github.v3+json'
+          },
+          body: JSON.stringify({
+            message: `Update materials.json content via StudyGram Web Editor`,
+            content: encodedContent,
+            sha: fileSha
+          })
+        });
+
+        if(!res.ok) throw new Error(`Save failed: ${res.statusText}`);
+
+        const resData = await res.json();
+        fileSha = resData.content.sha; // Update SHA for subsequent saves
+
+        showStatus("Successfully saved & updated materials.json on GitHub!");
+      } catch(err) {
+        showStatus(err.message, true);
+      }
+    }
+  </script>
+</body>
+</html>
