@@ -693,20 +693,20 @@
       },
       "semester_syllabus": {
         "title": "CO4K Complete Syllabus PDF",
-        "subtitle": "All Subject Syllabus PDF for Semester 4",
-        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+        "subtitle": "All Subject Syllabus PDF",
+        "url": "https://services.msbte.edu.in/scheme_digi/fetch_scheme_api_print"
       },
       "lab_manual": {
         "title": "Environmental Studies Project Manual",
-        "subtitle": "Official Project & Practical Guide",
+        "subtitle": "Official Practical & Lab Manual PDF",
         "url": "https://drive.google.com/file/d/11z8TYg9oHOaQIQGd_RLdVZG0jQyoRQY7/view"
       }
     },
     "notes": [
       {
         "title": "Unit 1: Ecosystems & Natural Resources",
-        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/env_u1.pdf",
-        "size": "3.3 MB"
+        "size": "3.3 MB",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/env_u1.pdf"
       }
     ],
     "videos": [
@@ -714,7 +714,7 @@
         "title": "Ecology & Sustainability Basics",
         "duration": "12 mins video lecture",
         "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
-        "thumbnail": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=500&auto=format&fit=crop"
+        "thumbnail": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=500&auto=format&fit=crop"
       }
     ]
   },
