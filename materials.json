@@ -728,7 +728,7 @@
       "semester_syllabus": {
         "title": "CO4K Complete Syllabus PDF",
         "subtitle": "All Subject Syllabus PDF",
-        "url": "https://econtent.msbte.ac.in/curriculum_search/"
+        "url": "https://services.msbte.edu.in/scheme_digi/fetch_scheme_api_print"
       },
       "lab_manual": {
         "title": "Java Programming Lab Manual",
@@ -902,7 +902,7 @@
       },
       "semester_syllabus": {
         "title": "CO5K Complete Syllabus PDF",
-        "subtitle": "All Subject Syllabus PDF for Semester 5",
+        "subtitle": "All Subject Syllabus PDF",
         "url": "https://econtent.msbte.ac.in/curriculum_search/"
       },
       "lab_manual": {
@@ -914,8 +914,8 @@
     "notes": [
       {
         "title": "Unit 1: Process Management & CPU Scheduling",
-        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/os_u1.pdf",
-        "size": "4.7 MB"
+        "size": "4.7 MB",
+        "url": "https://raw.githubusercontent.com/sarangirevarun-prog/StudyGram-database/main/pdfs/os_u1.pdf"
       }
     ],
     "videos": [
@@ -923,7 +923,7 @@
         "title": "Process Scheduling Algorithms",
         "duration": "20 mins video lecture",
         "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
-        "thumbnail": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=500&auto=format&fit=crop"
+        "thumbnail": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=500&auto=format&fit=crop"
       }
     ]
   },
